@@ -50,17 +50,14 @@ function changeImage() {
     }
   }
 
-function validatePhoneNumber()
-   {
+  function validatePhoneNumber() {
     var phoneNumberInput = document.getElementById("phoneNumber");
     var phoneNumber = phoneNumberInput.value;
     phoneNumber = phoneNumber.replace(/\D/g, '');
-    if (phoneNumber.length === 11)
-    {
+    if (phoneNumber.length === 11) {
       alert("Phone number is valid!");
-    } 
-    else 
-    {
+      localStorage.setItem("phoneNumber", phoneNumber);
+    } else {
       alert("Please enter a 11-digit phone number.");
     }
   }
