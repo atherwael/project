@@ -1,0 +1,94 @@
+<!-- used 1) Google fonts   2) Font Awsome -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+        </style>
+    <title>Rolls-Royce Phantom</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <p>Welcome to The World of Motors</p>
+        <div class="light-dark">
+          <i class="fa-solid fa-sun" onclick="lightMode()"></i>
+          <i class="fa-solid fa-moon" onclick="darkMode()"></i>
+        </div>
+      </div>
+    </nav>
+
+    <section class="carImage">
+      <div class="container">
+        <div class="carName">
+          <h2 id="carType">2023 Rolls-Royce Phantom</h2>
+        </div>
+        <div class="image">
+          <img src="rr/1.jpg" alt="rr car" />
+        </div>
+      </div>
+    </section>
+
+    <section class="carSpecs">
+      <div class="container">
+        <div class="header">
+          <h3>Specifications</h3>
+        </div>
+        <div class="specs">
+          <div class="spec spec1">
+            <span>Engine</span>
+            <p>V12 6.7 L</p>
+          </div>
+          <div class="spec spec2">
+            <span>Power </span>
+            <p>563 hp @ 5,000 rpm</p>
+          </div>
+          <div class="spec spec3">
+            <span>Torque</span>
+            <p>664 lb-ft @ 1,700 rpm</p>
+          </div>
+          <div class="spec spec4">
+            <span>Drive type</span>
+            <p>Rear wheel drive</p>
+          </div>
+          <div class="spec spec5">
+            <span>Fuel type</span>
+            <p>Premium</p>
+          </div>
+          <div class="spec spec1">
+            <span>Transmission</span>
+            <p>8-speed automatic</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="carVideo">
+      <div class="container">
+        <video src="rr/2.mp4" muted autoplay loop controls ></video>
+      </div>
+    </section>
+
+    <section class="pagesMoving">
+        <div class="container">
+            <a href="https://www.edmunds.com/rolls-royce/phantom/2023/st-401987587/features-specs/" target="_blank">Buy Now!</a>
+        </div>
+    </section>
+ <!-- next page -->
+    <section class="pagesMoving">
+      <div class="container">
+          <a href="index.html">Pagani</a>
+      </div>
+  </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>

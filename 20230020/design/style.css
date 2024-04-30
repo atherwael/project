@@ -1,0 +1,204 @@
+@import url(https://db.onlinewebfonts.com/c/1665ea47a0d67d9ffe5475ef41e9ef4a?family=SK+Porsche);
+#body1{
+    margin:30px;
+    background-image: linear-gradient(to right,rgba(8, 8, 68, 0.995),rgb(24, 23, 23));
+}
+#div1 h1{
+    font-family: "SK Porsche";
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+    letter-spacing: 5px;
+}
+#div1 p{
+    font-size: 20px;
+    border: rgb(178, 173, 173) 3px solid;
+    padding: 7px;
+    width: 55%;
+    background-color: rgb(84, 80, 80);
+    color: white;
+}
+#div2 h2{
+    color: rgb(237, 188, 104);
+    font-size: 25px;
+}
+#div2 p{
+    font-size: 20px;
+    border: rgb(178, 173, 173) 3px solid;
+    padding: 7px;
+    width: 600px;
+    background-color: rgb(84, 80, 80);
+    color: white;
+}
+#pic1{
+    width: 40%;
+    margin: 20px;
+    box-shadow:5px 5px 2px 4px rgb(167, 166, 167);
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+#table1{
+    height: 40%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+#table1 th{
+    color: rgb(0, 0, 0);
+    background-color: rgb(50, 54, 141);
+    border: 3px solid rgb(255, 252, 252);
+    padding: 5px;
+}
+#table1 td{
+    color:rgb(0, 0, 0) ;
+    background-color:rgb(1, 138, 138);
+    border: 3px solid rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+#p1{
+    width: 50%;
+}
+#porsche_vid{
+    width: 60%;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 10px rgba(0, 0, 0, 0.394);
+}
+#view{
+    display: flex;
+}
+#view img{
+    width: 25%;
+    transition: transform 0.5s;
+}
+#view img:hover{
+    transform: scale(1.5);
+}
+#design{
+    color: rgb(0, 0, 0);
+    padding: 7px;
+    border: solid 5px rgb(97, 88, 88);
+    width: fit-content;
+    font-size:30px;
+    background-color: silver;
+}
+#buy h2{
+    font-size: 40;
+    color: white;
+}
+#special{
+    color: wheat;
+}
+#buy button{
+    color:rgb(211, 130, 23);
+    padding: 7px;
+    font-size: 25px;
+    background-color: darkslateblue;
+    border-radius: 15px;
+}
+#buy button:hover{
+    background-color: rgb(178, 166, 255);
+    cursor:pointer;
+}
+/*The css for the BMW M4 page*/
+#body2{
+    background: rgb(212, 117, 212);
+    margin: 30px;
+}
+.header h1{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid blueviolet 5px;
+    padding: 5px;
+    background-color:burlywood;
+    border-radius: 20px;
+    font-family:serif;
+    font-size: 40px;
+    color: black;
+}
+.header p{
+    color: rgb(255, 236, 202);
+    text-align: center;
+    border: solid rgb(67, 65, 65) 5px;
+    background-color: darkcyan;
+    font-size: 25px;
+    padding: 5px;
+}
+#table2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 10px;
+    font-size: 30px;
+}
+#table2 th{
+    border: solid 5px rgb(206, 204, 204);
+    background-color: rgb(241, 239, 236);
+    border-radius: 20px;
+}
+#table2 td{
+    border: solid 5px purple;
+    background-color: rgb(214, 69, 214);
+    border-radius: 20px;
+    text-align: center;
+}
+.design{
+    width: 100%;
+}
+.design h2{
+    font-size: 30px;
+    padding: 10px;
+    border: solid 5px darkcyan;
+    background-color: aquamarine;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+.design img{
+    width: 40%;
+    margin-left: 30%;
+    transition: transform 0.5s;
+}
+.design img:hover{
+    transform:scale(1.5);
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
+.video #bmw_vid{
+    width: 800px;
+    height: 500px;
+    margin: 15px;
+    border: solid rgba(208, 26, 141, 0.714) 10px;
+    border-radius: 15px;
+}
+.get{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.get h2{
+    font-size: 40px;
+    width: fit-content;
+
+}
+.get button{
+    color:rgb(211, 189, 23);
+    padding: 7px;
+    font-size: 25px;
+    background-color: rgb(93, 7, 124);
+    border-radius: 10px;
+
+}
+.get button:hover{
+    background-color: rgb(149, 72, 221);
+    cursor:pointer;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+  </style>
+  <title>Porsche</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <p>Porsche Store</p>
+    </div>
+  </nav>
+
+  <section class="carImage">
+    <div class="container">
+      <div class="carName">
+        <h2 id="carType">Porsche Gt3 Rs</h2>
+      </div>
+      <div class="image">
+        <img id="carImg" src="./images/2.webp" alt="" />
+        <div class="s">
+          <div class="header">
+            <h3>Specifications</h3>
+          </div>
+          <div class="specs">
+            <div class="spec spec1">
+                <span>Engine</span>
+                <p>V6 Naturally Aspirated</p>
+              </div>
+              <div class="spec spec2">
+                <span>Horse Power </span>
+                <p>518 bhp</p>
+              </div>
+              <div class="spec spec3">
+                <span>Torque</span>
+                <p> 465 Nm</p>
+              </div>
+              <div class="spec spec4">
+                <span>Induction</span>
+                <p>Turbocharged</p>
+              </div>
+              <div class="spec spec5">
+                <span>0-100 kmph</span>
+                <p>2.9 Sec</p>
+              </div>
+              <div class="spec spec6">
+                <span>Top Speed</span>
+                <p> 296 Kmph</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="colors">
+      <div class="container">
+        <div class="color1" onclick="changeColor('./images/1.webp')"></div>
+        <div class="color2" onclick="changeColor('./images/2.webp')"></div>
+      </div>
+    </section>
+  
+    <section class="pagesMoving">
+      <div class="container">
+        <a href="https://www.porsche.com/international/models/911/911-gt3-rs/911-gt3-rs/" target="_blank">Buy Now</a>
+      </div>
+    </section>
+  
+    <script src="main.js"></script>
+  </body>
+  </html>

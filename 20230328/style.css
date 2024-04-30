@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    height: 10vh;
+    background-color: #081245;
+    position: fixed;
+}
+.navbar .container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.navbar .container p{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    color: white;
+    font-size: 1.2rem;
+}
+
+.navbar .container .light-dark{
+    width: 20%;
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.navbar .container .light-dark i{
+    margin-right: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.navbar .container .light-dark i:hover{
+    transform: scale(1.1);
+}
+
+.carImage{
+    width: 100%;
+    height: auto;
+    padding-top: 12vh;
+}
+
+.carImage .container{
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+  
+}
+
+.carImage .container .carName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carImage .container .carName h2{
+    font-size: 4rem;
+    font-weight: 900;
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.carImage .container .image{
+    height: 90vh;
+    width: 90%;
+    margin-top: 1%;
+    border-radius: 12px;
+}
+
+.carImage .container .image img{
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.carSpecs{
+    width: 100%;
+    height: auto;
+    margin-top: 3%;
+    background-color: #F3ECFF;
+}
+
+.carSpecs .container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.carSpecs .container .header{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 2px 2px gray;
+    padding: 1% 4%;
+    margin-top: 3%;
+}
+
+.carSpecs .container .header h3{
+    font-size: 2.5rem;
+}
+
+.carSpecs .container .specs{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3% 0%;
+}
+
+.carSpecs .container .specs .spec{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-top: 1%;
+}
+.carSpecs .container .specs .spec span{
+    font-weight: 600;
+    width: 50%;
+}
+
+.carSpecs .container .specs .spec p{
+    text-align: left !important;
+    width: 50%;
+}
+
+.carVideo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.carVideo .container{
+    border-radius: 12px;
+
+}
+
+.carVideo .container video{
+    border-radius: 12px;
+
+}
+
+
+.pagesMoving{
+    width: 100%;
+    margin: 3% 0%;
+
+}
+
+.pagesMoving .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagesMoving .container a{
+    font-size: 1.2rem;
+    padding: 1% 4%;
+    background-color: #081245 ;
+    border: none;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+.pagesMoving .container a:hover{
+    color: #081245;
+    background-color: white;
+    border: 2px solid #081245;
+}

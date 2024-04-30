@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #00ffff;
+    color: #000000;
+  }
+  
+  body{
+    border-color: #ffffff;
+  }
+  
+  img{
+    object-fit: cover;
+    width: 200;
+    height: 100;
+    margin-left: 10%;
+   
+  }
+  
+  .w{
+    border: 5px double #ffffff;
+    font-style: oblique;
+  }
+  
+  .a{
+    font-size: 30px;
+  }
+  
+  .d{
+    margin-left: 19px;
+    font-size: 19px;
+  }
+  
+  .hi{
+    margin-left: 12%;
+    font-size: x-large;
+  }
+  
