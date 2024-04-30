@@ -226,7 +226,7 @@ input::placeholder
   color: #fff;
   font-size: 40px;
   margin-left: 20%;
-    margin-bottom: 5%;
+  bottom:10px
 }
 .sub
 {
