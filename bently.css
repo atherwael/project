@@ -215,6 +215,7 @@ input::placeholder
   font-size: larger;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20px;
+    bottom:5px
 }
 .num::placeholder
 {
