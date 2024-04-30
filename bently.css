@@ -204,7 +204,7 @@ input::placeholder
 }
 .num
 {
-  position: relative;
+  position:absolute;
   width: 220px;
   height: 40px;
   color: #000;
@@ -237,6 +237,9 @@ input::placeholder
   background-color: #fff;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20px;
+postion:absolute;
+    margin-left:19%;
+    margin-top:0.5%;
 }
 .sub:hover
 {
