@@ -49,3 +49,18 @@ function changeImage() {
       image.src = "b/be1.jpg";
     }
   }
+
+function validatePhoneNumber()
+   {
+    var phoneNumberInput = document.getElementById("phoneNumber");
+    var phoneNumber = phoneNumberInput.value;
+    phoneNumber = phoneNumber.replace(/\D/g, '');
+    if (phoneNumber.length === 11)
+    {
+      alert("Phone number is valid!");
+    } 
+    else 
+    {
+      alert("Please enter a 11-digit phone number.");
+    }
+  }
