@@ -228,6 +228,7 @@ input::placeholder
   font-size: 40px;
   margin-left: 20%;
   bottom:10px
+  height:100px;
 }
 .sub
 {
