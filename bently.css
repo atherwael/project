@@ -148,12 +148,7 @@
         border-radius:15px ;
         object-fit: cover;
         margin: 1%0%0%3%;
-        transition: 0.4s ease-in-out;
-      }
-      video:hover
-      {
-        transform:scale(1.2)  0.4s;
-        border: 2px #fff solid;
+
       }
       #search
 {
@@ -204,7 +199,7 @@ input::placeholder
 }
 .num
 {
-  position:absolute;
+  position: relative;
   width: 220px;
   height: 20px;
   color: #000;
@@ -215,32 +210,32 @@ input::placeholder
   font-size: larger;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20px;
-    bottom:13px
+  bottom:5px
 }
 .num::placeholder
 {
   color: #000;
 }
-.vali
+.val
 {
   position: relative;
   color: #fff;
   font-size: 40px;
   margin-left: 20%;
-  bottom:10px
-  height:100px;
+  height : 100px;
 }
 .sub
 {
   width: 80px;
-  height: 40px;
+  height: 30px;
   border-radius: 20px;
   background-color: #fff;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20px;
-postion:absolute;
-    margin-left:19%;
-    margin-top:0.5%;
+  border: #000 3px solid;
+  position: absolute;
+    margin-top:0.9%;
+    margin-left:5 px;
 }
 .sub:hover
 {
